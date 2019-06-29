@@ -1,0 +1,22 @@
+##
+# Google
+#
+# @author Ian Warner <ian.warner@drykiss.com>
+##
+
+---
+
+api : false
+
+analytics :
+    active : false
+    code   : false
+    url    : false
+
+adsense        : false
+search         : false
+webmasterTools : false
+
+client :
+    id     : false
+    secret : false

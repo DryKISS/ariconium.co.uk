@@ -1,0 +1,74 @@
+##
+# Config YAML
+#
+# @author Ian Warner <ian.warner@drykiss.com>
+#
+# @todo Sort out the elements in here a little better and create new files if required.
+##
+
+---
+
+# Version - This needs to be iterated on each distribution
+version : "1.0.0"
+
+# Brand
+brand : "Ariconium"
+url   : "http://Ariconium.co.uk"
+
+# Angular
+angular:
+    appName : "app"
+
+# Head
+head :
+    prefix : "og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# dcterms: http://purl.org/dc/terms/#"
+
+# JavaScript
+javascript :
+    head : false
+    body : true
+
+# Sections
+breadcrumbs   : false
+container     : "container"
+copyright     : true
+configuration : false
+description   : false
+favicon       : "favicon.ico"
+heading       : false
+lang          : en
+manifest      : false
+modernizr     : false
+resources     : false
+todo          : false
+topIcon       : true
+body       :
+    spy    : false
+    target : false
+    offset : false
+
+# Meta
+meta :
+    apple    : false
+    core     : true
+    dublin   : true
+    facebook : false
+    fancy    : false
+    favicon  : false
+    feed     : false
+    google   : false
+    mobile   : true
+    touch    : false
+    twitter  : false
+
+# Products
+productColumns : 3
+
+# Footer
+footer :
+    active     : true
+    extraClass : "noBackground"
+
+# Atom
+atom :
+    title : "Ariconium"

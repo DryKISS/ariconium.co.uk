@@ -1,0 +1,18 @@
+##
+# Facebook YAML
+#
+# @author Ian Warner <ian.warner@drykiss.com>
+##
+
+---
+
+app :
+    id     : false
+    secret : false
+
+page :
+    id  : false
+    url : false
+
+locale :
+    en : "en_GB"

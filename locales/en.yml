@@ -1,0 +1,324 @@
+##
+# English Locale File
+#
+# @author Ian Warner <ian.warner@drykiss.com>
+##
+
+---
+
+# English
+en:
+
+    # Locale
+    locale : "en"
+
+    # Pagination
+    pagination :
+        first    : "First"
+        next     : "Next"
+        previous : "Previous"
+        last     : "Last"
+
+    # Meta
+    # Automatically configures the Meta based on page name
+    meta :
+
+        # Global
+        publisher        : "Ariconium Ltd"
+        publisherAddress : "info@Ariconium.co.uk"
+        rights           : "&copy; 2015, Ariconium Ltd. All rights reserved."
+        itemType         : "WebPage"
+
+        # Home
+        home :
+            author      : "Ariconium"
+            description : "Ariconium"
+            image       : "Image"
+            subject     : "Ariconium"
+            title       : "Ariconium"
+            type        : "website"
+
+        # About
+        about :
+            author      : "Ariconium"
+            description : "Ariconium"
+            image       : "Image"
+            subject     : "Ariconium"
+            title       : "Ariconium"
+            type        : "website"
+
+        # Products
+        products :
+            author      : "Ariconium"
+            description : "Ariconium"
+            image       : "Image"
+            subject     : "Ariconium"
+            title       : "Ariconium"
+            type        : "website"
+
+        # Standards
+        standards :
+            author      : "Ariconium"
+            description : "Ariconium"
+            image       : "Image"
+            subject     : "Ariconium"
+            title       : "Ariconium"
+            type        : "website"
+
+        # Services
+        services :
+            author      : "Ariconium"
+            description : "Ariconium"
+            image       : "Image"
+            subject     : "Ariconium"
+            title       : "Ariconium"
+            type        : "website"
+
+        # Contact
+        contact :
+            author      : "Ariconium"
+            description : "Ariconium"
+            image       : "Image"
+            subject     : "Ariconium"
+            title       : "Ariconium"
+            type        : "website"
+
+    # Nav Above
+    navAbove :
+        strapLine : "Ariconium<br />Sales and marketing of premium feed additive"
+
+    # Navigation
+    navigation :
+
+        # Left
+        left :
+
+            # Home
+            - text : "Home"
+              link : { url: "/" }
+
+            # About
+            - text : "About"
+              link : { url: "/about" }
+
+            # Products
+            - text : "Products"
+              link : { url: "/products" }
+
+            # Standards
+            - text : "Standards"
+              link : { url: "/standards" }
+
+            # Services
+            - text : "Services"
+              link : { url: "/services" }
+
+            # Contact
+            - text : "Contact"
+              link : { url: "/contact" }
+
+    # Home
+    home :
+
+        heading :
+            text : "Ariconium"
+
+        paragraph1 :
+            "Ariconium Limited was established in 1998 with the objective of providing an
+             efficient sales, marketing and distribution service for speciality ingredients
+             and additives that increase the performance of, add value to and enhance the
+             profitability of animal production, pet foods and aquaculture."
+
+        paragraph2 :
+            "The products are developed and selected in collaboration with small and medium
+             sized enterprises with targeted R&D projects, together with unique production
+             techniques and processes. Those products and programmes are supplied to the
+             end-users through the extensive distribution channels and network contacts
+             built up over many years."
+
+    # About
+    about :
+
+        heading :
+            text : "About Ariconium"
+
+        paragraph1 :
+            "Ariconium Limited has a team of people with many years' experience
+             in the sales and marketing of feed additive specialities with a
+             particular focus on developing countries and regions.
+
+             <br/><br/>
+
+             The knowledge gained in developed markets provides expertise to
+             improve the production and profitability of feed and livestock
+             operations."
+
+        paragraph2 :
+            "We work closely with both end users and product developers to
+             provide a range of products specifically to meet the actual
+             conditions present in a particular market, ensuring the optimum
+             results in each circumstance.
+
+             <br/><br/>
+
+             Matching experience from other regions to individual conditions
+             delivers the most efficient improvement in the profitability of
+             livestock production."
+
+    # Products
+    products :
+
+        heading :
+            text : "Ariconium products"
+
+        paragraph1 :
+            "The products are focused on specific events in the livestock
+             production cycle. Generating improvements in the production
+             parameters at these specific events will have a significant
+             beneficial effect on the production parameters of the whole
+             production cycle.
+
+             <br /><br />
+
+             In pig production these significant events are farrowing, weaning,
+             insemination and times of stress such as changes in feed or housing."
+
+        paragraph2 :
+            "Targeting these specific events will have a major impact on the
+             overall profitability of a pig production system. Products to
+             supplement the essential fatty acids in sow and boars feed influence
+             the number of piglets born and weaned, the size and viability of the
+             piglets at birth and at weaning.
+
+             <br /><br />
+
+             The extension of the productive life of both sows and boars impacts
+             profitability and return on investment. Products targeted at these
+             specific events represent a relatively small investment when measured
+             against the potential profit that can be gained throughout the entire
+             production cycle."
+
+        paragraph3 :
+            "Ariconium Limited has close relationships with major producers of
+             equipment used in pet food manufacturing, giving the opportunity to
+             develop a range of additives and ingredients that enhance the
+             appearance and acceptability of pet foods.
+
+             <br /><br />
+
+             Products include an extensive range of colours, palatants and
+             speciality ingredients such as salmon, shrimp, krill and other
+             protein sources. Ariconium also offers a range of chicken and fish
+             based treats for the retail market."
+
+        paragraph4 :
+            "Aquaculture is a rapidly growing sector and has excellent prospects
+            for future growth to meet the increasing demand for food. This offers
+            both challenges and opportunities in the development of additives and
+            innovative processes that add value to fish feeds, provide greater
+            sustainability of raw material supply and adding value to feed and
+            production systems.
+
+            <br /><br />
+
+            New and innovative techniques for the production of high value products
+            such as fresh shrimps that can be grown in environmentally controlled
+            facilities.
+
+            <br /><br />
+
+            These sophisticated techniques mean the facilities can be located near
+            to major population centres allowing fresh produce to be delivered
+            directly to the consumers that, in turn, generates elevated profits
+            and an extremely high return on investment."
+
+    # Standards
+    standards :
+
+        heading :
+            text : "Ariconium standards"
+
+        paragraph1 :
+            "Ariconium Limited is committed to the role of valuable
+             partner for both the speciality ingredient producers and to the
+             animal production and pet food industries in developing countries."
+
+        paragraph2 :
+            "Long term relationships and unique expertise in distribution and
+             regulatory affairs make Ariconium a reliable, dedicated and
+             efficient vehicle for distribution of value added products that
+             offer the users improvements in production and profitability."
+
+    # Services
+    services :
+
+        heading :
+            text : "Ariconium services"
+
+        paragraph1 :
+            "Many years of experience in this field gives invaluable experience
+            in product registrations, preparation of export documentation,
+            transportation, packaging and handling of goods into developing
+            regions such as Eastern Europe, Russia and South America."
+
+        paragraph2 :
+            "This extensive experience enables Ariconium Limited to
+            cover the financial risks that may be encountered in these areas
+            meaning that Ariconium Limited can offer financial security
+            to its partners."
+
+    # Contact
+    contact :
+
+        heading :
+            text : "Ariconium - Contact"
+
+        paragraph1 :
+            "You can contact us using the form below, or send an email to: info@ariconium.co.uk"
+
+    # Copyright
+    copyright :
+        brand  : "Ariconium"
+        rights : "All rights reserved."
+
+    # Footer
+    footer :
+
+        # Column One
+        - title       : "About"
+          icon        : "fa-info"
+          description :
+            "Ariconium Limited has a team of people with many years' experience
+             in the sales and marketing of feed additive specialities with a
+             particular focus on developing countries and regions."
+
+        # Column Two
+        - title       : "What We Do"
+          icon        : "fa-cogs"
+          description :
+            "We work closely with both end users and product developers to
+             provide a range of products specifically to meet the actual
+             conditions present in a particular market, ensuring the optimum
+             results in each circumstance."
+
+        # Column Three
+        - title       : "Links"
+          icon        : "fa-link"
+          description : |
+            <a href="/">Home</a><br />
+            <a href="/about">About</a><br />
+            <a href="/products">Products</a><br />
+            <a href="/standards">Standards</a><br />
+            <a href="/services">Services</a><br />
+            <a href="/contact">Contact</a><br />
+
+        # Column Four
+        - title       : "Contact"
+          icon        : "fa-phone"
+          description : |
+
+            <i class="fa fa-map-marker"></i>
+            Ross on Wye, UK
+
+            <i class="fa fa-envelope"></i>
+            [info@Ariconium.co.uk](mailto:info@ariconium.co.uk)

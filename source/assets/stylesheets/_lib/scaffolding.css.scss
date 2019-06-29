@@ -1,0 +1,69 @@
+//
+// Scaffolding
+// Creates the CSS for the main elements of the site
+//
+// @author Ian Warner <ian.warner@drykiss.com>
+//----------------------------------------------------------------------------//
+
+@import url( https://fonts.googleapis.com/css?family=Roboto );
+
+// Body
+//----------------------------------------------------------------------------//
+body {
+
+    // Add Padding - required if using the fixed NavBar
+    //------------------------------------------------------------------------//
+    padding-top : 0;
+
+}
+
+// Navigation Above
+//----------------------------------------------------------------------------//
+.navAbove {
+
+    // Background
+    //------------------------------------------------------------------------//
+    background : none !important;
+}
+
+// Highlight
+//----------------------------------------------------------------------------//
+table.table  {
+    .highlight {
+        background-color : white !important;
+    }
+}
+
+// Thumbnail
+//----------------------------------------------------------------------------//
+.thumbnail {
+    background-color : green;
+    color            : #fff;
+    text-align       : center;
+
+    .caption {
+        color       : white;
+        margin      : 0 auto;
+        text-shadow : 1px 1px 0px #aaa;
+        width       : 84%;
+
+        a {
+            color : white;
+        }
+    }
+
+    .fa {
+        position : relative;
+        top      : 15px;
+    }
+}
+
+p {
+    margin-top : 10px;
+}
+
+// Angular cloak
+//----------------------------------------------------------------------------//
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}

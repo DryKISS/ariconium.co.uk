@@ -1,0 +1,113 @@
+---
+
+# Variables
+stub : "home"
+
+---
+
+-# Bootstrap container
+.container
+
+    -# Bootstrap row
+    .row
+
+        -# Bootstrap column
+        .col-md-12
+
+            -# Heading - H1
+            = partial "./molecule/heading/heading", locals: { text: :"home.heading.text" }
+
+            -# Carousel
+            = partial "./molecule/carousel/carousel",
+                       locals: { array:     [ { image: { extraClass: "img-responsive", src: "carousel/pig-slim.jpg" } },
+                                              { image: { extraClass: "img-responsive", src: "carousel/cow-slim.jpg" } },
+                                              { image: { extraClass: "img-responsive", src: "carousel/chicken-slim.jpg" } },
+                                              { image: { extraClass: "img-responsive", src: "carousel/salmon-slim.jpg" } },
+                                              { image: { extraClass: "img-responsive", src: "carousel/cat-dog-slim.jpg" } } ],
+                                 data:      { ride: "carousel", interval: "5000" },
+                                 control:   true,
+                                 indicator: true }
+
+    -# Bootstrap row
+    .row
+
+        %hr
+
+        -# Bootstrap column
+        .col-md-6
+
+            -# Heading - H2
+            = partial "./molecule/heading/heading", locals: { extraClass: "heading--noMargin", tag: "h2", text: "Established" }
+
+            -# Paragraph
+            %p= string :"home.paragraph1"
+
+        -# Bootstrap column
+        .col-md-6
+
+            -# Heading - H2
+            = partial "./molecule/heading/heading", locals: { extraClass: "heading--noMargin", tag: "h2", text: "Products" }
+
+            -# Paragraph
+            %p= string :"home.paragraph2"
+
+    -# Bootstrap row
+    .row
+
+        %hr
+
+        -# Bootstrap column
+        .col-md-3
+
+            -# Thumbnail
+            .thumbnail
+
+                -# Icon
+                = partial "./atom/icon/icon", locals: { icon: "fa-lightbulb-o fa-4x" }
+
+                -# Caption
+                .caption
+                    %h3 Experienced &amp; knowledgable
+                    %a{ href: "about" } Learn more >>
+
+        -# Bootstrap column
+        .col-md-3
+
+            -# Thumbnail
+            .thumbnail
+
+                -# Icon
+                = partial "./atom/icon/icon", locals: { icon: "fa-check-square-o fa-4x" }
+
+                -# Caption
+                .caption
+                    %h3 Reliable &amp; efficient
+                    %a{ href: "standards" } Learn more >>
+
+        -# Bootstrap column
+        .col-md-3
+
+            -# Thumbnail
+            .thumbnail
+
+                -# Icon
+                = partial "./atom/icon/icon", locals: { icon: "fa-globe fa-4x" }
+
+                -# Caption
+                .caption
+                    %h3 International distribution
+                    %a{ href: "services" } Learn more >>
+
+        -# Bootstrap column
+        .col-md-3
+
+            -# Thumbnail
+            .thumbnail
+
+                -# Icon
+                = partial "./atom/icon/icon", locals: { icon: "fa-phone-square fa-4x" }
+
+                -# Caption
+                .caption
+                    %h3 Get in touch with us
+                    %a{ href: "contact" } Learn more >>

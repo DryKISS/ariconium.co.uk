@@ -1,0 +1,45 @@
+-##
+-# Full Width
+-#
+-# @usage
+-# -# Full Width layout
+-# = wrap_layout "_library/fullWidth" do
+-#
+-# @author Ian Warner <ian.warner@drykiss.com>
+-##
+
+-# Variables
+- dataCurrent = current_page.data
+
+-# Layout - Calls Wrapper Layout
+= wrap_layout "_library/bootstrap" do
+
+    -# Heading
+    - if data.config.heading
+        = codeBlender "heading", "molecule", { small: string( dataCurrent.small ), text: string( dataCurrent.title ) }
+
+    -# Details
+    - if data.config.description
+        %p= string dataCurrent.description
+
+    -# Locals
+    - if dataCurrent.locals
+        = codeBlender "local", "organism"
+
+    -# Yield
+    = yield
+
+    -# Resources
+    - if data.config.resources
+        .container
+            = codeBlender "resource", "organism"
+
+    -# Assets
+    - if data.config.assets
+        .container
+            = codeBlender "resource", "asset"
+
+    -# Todo
+    - if data.config.todo
+        .container
+            = codeBlender "resource", "todo"

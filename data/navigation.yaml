@@ -1,0 +1,53 @@
+##
+# Navigation, Navbar configuration
+#
+# @author Ian Warner <ian.warner@drykiss.com>
+#
+# @todo Confirm whether each of these are required now, comment them
+# @todo Can I move these into the Navbar partial also
+##
+
+---
+
+# Whether to show the NavBar
+navbar : true
+
+# Paths to the partials to display navigation above and below
+above  : "organism/navAbove/navAbove"
+below  : false
+
+# Brand
+brand :
+
+    active : false
+
+    heading :
+        active : false
+
+    icon :
+        active : false
+        icon   : false
+
+    link :
+        url : "/"
+
+    logo :
+        active : true
+        alt    : false
+        width  : false
+        height : false
+
+    text :
+        active : false
+        text   : false
+
+extraClass : "navbar-inverse navbar-static-top"
+
+ng :
+    controller : false
+    show       : false
+    cloak      : false
+
+type     : false
+uLClass  : "navbar-left"
+wrapper  : false

@@ -1,0 +1,44 @@
+---
+
+# Variables
+stub : "services"
+
+---
+
+-# Bootstrap container
+.container
+
+    -# Bootstrap row
+    .row
+
+        -# Bootstrap column
+        .col-md-12
+
+            -# Heading - H1
+            = partial "./molecule/heading/heading", locals: { text: :"services.heading.text" }
+
+            -# Tiny image
+            = partial "./atom/image/image", locals: { alt: "Salmon", extraClass: "img-responsive", src: "carousel/salmon-tiny.jpg", size: [ 1140, 100 ] }
+
+    -# Bootstrap row
+    .row
+
+        %hr
+
+        -# Bootstrap column
+        .col-md-6
+
+            -# Heading - H2
+            = partial "./molecule/heading/heading", locals: { extraClass: "heading--noMargin", tag: "h2", text: "Distribution" }
+
+            -# Paragraph
+            %p= string :"services.paragraph1"
+
+        -# Bootstrap column
+        .col-md-6
+
+            -# Heading - H2
+            = partial "./molecule/heading/heading", locals: { extraClass: "heading--noMargin", tag: "h2", text: "Financial security" }
+
+            -# Paragraph
+            %p= string :"services.paragraph2"

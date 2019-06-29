@@ -1,0 +1,11 @@
+##
+# FormSpree
+#
+# @author Ian Warner <ian.warner@drykiss.com>
+# @see    http://formspree.io/
+##
+
+---
+
+action : "//formspree.io/info@ariconium.co.uk"
+next   : "http://ariconium.co.uk/contact/?f=s"
