@@ -12,9 +12,7 @@ const Canonical = require('./canonical')
 export { Canonical }
 
 export const Google = {
-  analytics: '',
-  apiKey: '',
-  verification: ''
+  analytics: 'UA-49976138-21'
 }
 
 export const jwtConfig = {}
