@@ -22,13 +22,21 @@ import {
   faPhoneSquare
 } from '@fortawesome/pro-duotone-svg-icons'
 
+// Font awesome
+import {
+  faBars,
+  faTimes
+} from '@fortawesome/pro-regular-svg-icons'
+
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 library.add(
-  faLightbulb,
+  faBars,
   faCheckSquare,
   faGlobeEurope,
-  faPhoneSquare
+  faLightbulb,
+  faPhoneSquare,
+  faTimes
 )
 
 // Track pageViews

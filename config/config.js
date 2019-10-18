@@ -19,21 +19,11 @@ export const Google = {
 
 export const jwtConfig = {}
 
-export const Icons = {
-  proDuotone: [
-    'faLightbulb',
-    'faCheckSquare',
-    'faGlobeEurope',
-    'faPhoneSquare'
-  ]
-}
-
 export const Sidebar = ''
 
 export const Config = {
   Brand,
   Canonical,
-  Icons,
   Google,
   Sidebar
 }
