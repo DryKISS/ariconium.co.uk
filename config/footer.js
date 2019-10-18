@@ -34,7 +34,7 @@ export const Footer = [
       {
         id: 'footerAbout',
         name: 'About',
-        to: '/About'
+        to: '/about'
       },
       {
         id: 'footerProducts',

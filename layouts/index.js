@@ -46,7 +46,6 @@ const Layout = ({ children }) => {
       <Bootstrap
         brand={Brand.name}
         children={children}
-        copyright={Copyright}
         footer={Footer}
         Navigation={Navigation}
       />
