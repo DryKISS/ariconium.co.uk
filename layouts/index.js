@@ -17,7 +17,7 @@ import {
 } from 'industry-ui'
 
 // Config
-import { Brand, Copyright, Footer, Navigation } from 'config'
+import { Brand, Footer, Navigation } from 'config'
 
 const Layout = ({ children }) => {
   return (
